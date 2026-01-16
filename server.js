@@ -8,6 +8,6 @@ server.on('connection', function(ws) {
     });
 
     ws.on('message', function(data) {
-        console.log(data);
+        console.log(data.toString());
     });
 });
